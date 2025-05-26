@@ -2,7 +2,7 @@ name: Docker Image Express
 
 on:
   push:
-    branches: [ auth-with-role ]
+    branches: [ deploy-ecs ]
 
 permissions:
   id-token: write
