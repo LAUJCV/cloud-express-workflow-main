@@ -45,6 +45,8 @@ jobs:
         docker build -t $REGISTRY/$REPOSITORY:$IMAGE_TAG .
         docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
 
+        
+
 
 
 
