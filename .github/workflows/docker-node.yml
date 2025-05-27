@@ -74,7 +74,9 @@ jobs:
             service: ${{ vars.SERVICE_ECS }}
             cluster: ${{ vars.CLUSTER_ECS }}
             wait-for-service-stability: true
-            
+
+
+
 
 
 
