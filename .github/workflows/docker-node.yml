@@ -70,7 +70,7 @@ jobs:
         - name: Deploy to ECS
           uses: aws-actions/amazon-ecs-deploy-task-definition@v1
           with:
-            task_definition:
+            task_definition: .aws/task.json
             service: ${{ vars.SERVICE_ECS }}
             cluster: ${{ vars.CLUSTER_ECS }}
             wait-for-service-stability: true
